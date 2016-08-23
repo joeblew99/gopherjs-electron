@@ -3,13 +3,14 @@ package main
 import (
 	"fmt"
 
-	"github.com/arvitaly/gopherjs-electron"
 	"github.com/gopherjs/gopherjs/js"
+
+	"github.com/joeblew99/gopherjs-electron"
 )
 
 func main() {
 
-	fmt.Println("starting... ")
+	fmt.Println("starting frontend... ")
 	var app = electron.GetApp()
 	fmt.Println("app path: " + app.GetAppPath())
 

@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title> Joe hellow world</title>
+    <style type="text/css">
+        <!-- h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, Sans-Serif;
+        }
+        
+        p {
+            text-indent: 20px;
+        }
+        
+        -->
+    </style>
+
+    <script src="app.js"></script>
+</head>
+
+<body bgcolor="#ffffcc" text="#000000">
+    <h1>Hello, World!</h1>
+
+    <p>Make a Http call to backend
+        <div>
+            <a href="http://localhost:8080">Go Home</a>
+        </div>
+        <div>
+            <a href="http://localhost:8080/hello/">Say Hello</a>
+        </div>
+
+        <div>
+            <a href="http://localhost:8080/fhfhfh/">Go to not existing page</a>
+        </div>
+
+    </p>
+
+    <script>
+
+    get('http://localhost:8080/api/test/', 'text')
+        .then(
+            function(x){
+                console.log(x);
+            }
+        )
+</script>
+
+</body>
+
+</html>

@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js",
+    "start": "electron ./frontend/main.js",
     "test": "gopherjs build ./scripts/test.go -o ./spec/all-spec.js && electron scripts/test.js"
   },
   "author": "",

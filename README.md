@@ -15,9 +15,9 @@ Package require electron-prebuilt npm-module
 
 Look in cmd for basic example
 
-# TODO
-- When Electron starts, start / spawn the golang backend.
-- Get communication between backend and frontend working.
+# Roadmap
+- DONE: When Electron starts, start / spawn the Golang backend web server
+- DONE: Get basic communication between Backend and Frontend working.
 
 
 
@@ -25,7 +25,7 @@ Look in cmd for basic example
 
 For tests used Jasmine (http://jasmine.github.io/) and adapter fo go https://github.com/arvitaly/gopherjs-jasmine
 
-	go get github.com/arvitaly/gopherjs-jasmine
+	go get github.com/joeblew99/gopherjs-jasmine
 	npm install electron-prebuilt -g
 	npm install
 	npm test

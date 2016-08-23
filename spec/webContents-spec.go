@@ -3,7 +3,7 @@ package spec
 import (
 	"time"
 
-	"github.com/arvitaly/gopherjs-electron"
+	"github.com/joeblew99/gopherjs-electron"
 )
 import jasmine "github.com/arvitaly/gopherjs-jasmine"
 import "github.com/gopherjs/gopherjs/js"

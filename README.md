@@ -1,7 +1,7 @@
 # gopherjs-electron
 Atom/Electron (https://github.com/atom/electron/) desktop apps with Go. Package use https://github.com/gopherjs/gopherjs.
 
-[![Build Status](https://travis-ci.org/arvitaly/gopherjs-electron.svg?branch=master)](https://travis-ci.org/arvitaly/gopherjs-electron)
+
 
 # Install
 
@@ -13,7 +13,13 @@ Package require electron-prebuilt npm-module
 
 # Usage
 
-Look source-code and tests)) //TODO
+Look in cmd for basic example
+
+# TODO
+- When Electron starts, start / spawn the golang backend.
+- Get communication between backend and frontend working.
+
+
 
 # Test
 
